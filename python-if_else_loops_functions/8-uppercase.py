@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 def uppercase(s):
     result = ""
     for char in s:
@@ -9,4 +10,3 @@ def uppercase(s):
         result += uppercase_char
 
     print("{}".format(result))
-    
