@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """Defines a text-indentation function."""
 
 
@@ -25,5 +26,5 @@ def text_indentation(text):
             current_line = "\n"
         else:
             print(char, end="")
-            
+
             current_line = char
