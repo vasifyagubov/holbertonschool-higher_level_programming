@@ -1,16 +1,14 @@
 #!/usr/bin/python3
-
-"""Student to JSON"""
-
+"""File"""
 
 
 class Student:
-    """Student"""
-    def __init__(self, first_name, last_name, age):
-        self.first_name = first_name
-        self.last_name = last_name
-        self.age = age
+    """Student class"""
+    def __init__(self, a, b, c):
+        self.first_name = a
+        self.last_name = b
+        self.age = c
 
-        def to_json(self):
-            """function of making to json"""
-            return self.__dict__
+    def to_json(self):
+        """function of making to json"""
+        return self.__dict__
