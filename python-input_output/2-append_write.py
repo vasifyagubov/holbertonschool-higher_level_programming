@@ -6,4 +6,4 @@
 def append_write(filename="", text=""):
     """Function"""
     with open(filename, 'a', encoding='utf8') as file:
-        return (file.write(), end='')
+        return (file.write(text))
